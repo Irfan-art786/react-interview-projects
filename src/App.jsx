@@ -1,10 +1,15 @@
 import "./App.css";
-import Accordian from "./components/accordian/Accordian.jsx";
+// import Accordian from "./components/accordian/Accordian.jsx";
+import { RandomColor } from "./components/random-color/RandomColor.jsx";
 
 function App() {
   return (
     <>
-      <Accordian />
+      {/* Accordian component */}
+      {/* <Accordian /> */}
+
+      {/* Random Color component */}
+      <RandomColor />
     </>
   );
 }
